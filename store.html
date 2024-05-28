@@ -1,0 +1,1598 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Store - Diamond-Service</title>
+
+
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+    <meta name="twitter:card" content="summary" />
+
+
+
+
+
+
+    <meta property="og:site_name" content="klar.gg">
+
+
+
+
+
+
+
+    <meta property="og:locale" content="english">
+
+
+
+
+
+
+
+
+    <link rel="manifest" href="https://forum.klar.gg/manifest.webmanifest/">
+    <meta name="msapplication-config" content="https://forum.klar.gg/browserconfig.xml/">
+    <meta name="msapplication-starturl" content="/">
+    <meta name="application-name" content="klar.gg">
+    <meta name="apple-mobile-web-app-title" content="klar.gg">
+
+    <meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+    <link rel="icon" sizes="36x36" href="https://forum.klar.gg/uploads/monthly_2023_10/android-chrome-36x36.png">
+
+
+
+
+
+    <link rel="icon" sizes="48x48" href="https://forum.klar.gg/uploads/monthly_2023_10/android-chrome-48x48.png">
+
+
+
+
+
+    <link rel="icon" sizes="72x72" href="https://forum.klar.gg/uploads/monthly_2023_10/android-chrome-72x72.png">
+
+
+
+
+
+    <link rel="icon" sizes="96x96" href="https://forum.klar.gg/uploads/monthly_2023_10/android-chrome-96x96.png">
+
+
+
+
+
+    <link rel="icon" sizes="144x144" href="https://forum.klar.gg/uploads/monthly_2023_10/android-chrome-144x144.png">
+
+
+
+
+
+    <link rel="icon" sizes="192x192" href="https://forum.klar.gg/uploads/monthly_2023_10/android-chrome-192x192.png">
+
+
+
+
+
+    <link rel="icon" sizes="256x256" href="https://forum.klar.gg/uploads/monthly_2023_10/android-chrome-256x256.png">
+
+
+
+
+
+    <link rel="icon" sizes="384x384" href="https://forum.klar.gg/uploads/monthly_2023_10/android-chrome-384x384.png">
+
+
+
+
+
+    <link rel="icon" sizes="512x512" href="https://forum.klar.gg/uploads/monthly_2023_10/android-chrome-512x512.png">
+
+
+
+
+
+    <meta name="msapplication-square70x70logo" content="https://forum.klar.gg/uploads/monthly_2023_10/msapplication-square70x70logo.png" />
+
+
+
+
+
+    <meta name="msapplication-TileImage" content="https://forum.klar.gg/uploads/monthly_2023_10/msapplication-TileImage.png" />
+
+
+
+
+
+    <meta name="msapplication-square150x150logo" content="https://forum.klar.gg/uploads/monthly_2023_10/msapplication-square150x150logo.png" />
+
+
+
+
+
+    <meta name="msapplication-wide310x150logo" content="https://forum.klar.gg/uploads/monthly_2023_10/msapplication-wide310x150logo.png" />
+
+
+
+
+
+    <meta name="msapplication-square310x310logo" content="https://forum.klar.gg/uploads/monthly_2023_10/msapplication-square310x310logo.png" />
+
+
+
+
+
+
+    <link rel="apple-touch-icon" href="https://forum.klar.gg/uploads/monthly_2023_10/apple-touch-icon-57x57.png">
+
+
+
+
+
+
+
+    <link rel="apple-touch-icon" sizes="60x60" href="https://forum.klar.gg/uploads/monthly_2023_10/apple-touch-icon-60x60.png">
+
+
+
+
+
+
+
+    <link rel="apple-touch-icon" sizes="72x72" href="https://forum.klar.gg/uploads/monthly_2023_10/apple-touch-icon-72x72.png">
+
+
+
+
+
+
+
+    <link rel="apple-touch-icon" sizes="76x76" href="https://forum.klar.gg/uploads/monthly_2023_10/apple-touch-icon-76x76.png">
+
+
+
+
+
+
+
+    <link rel="apple-touch-icon" sizes="114x114" href="https://forum.klar.gg/uploads/monthly_2023_10/apple-touch-icon-114x114.png">
+
+
+
+
+
+
+
+    <link rel="apple-touch-icon" sizes="120x120" href="https://forum.klar.gg/uploads/monthly_2023_10/apple-touch-icon-120x120.png">
+
+
+
+
+
+
+
+    <link rel="apple-touch-icon" sizes="144x144" href="https://forum.klar.gg/uploads/monthly_2023_10/apple-touch-icon-144x144.png">
+
+
+
+
+
+
+
+    <link rel="apple-touch-icon" sizes="152x152" href="https://forum.klar.gg/uploads/monthly_2023_10/apple-touch-icon-152x152.png">
+
+
+
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://forum.klar.gg/uploads/monthly_2023_10/apple-touch-icon-180x180.png">
+
+
+
+
+
+
+
+
+    <link rel="preload" href="//forum.klar.gg/applications/core/interface/font/fontawesome-webfont.woff2?v=4.7.0" as="font" crossorigin="anonymous">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+
+
+    <link rel='stylesheet' href='https://forum.klar.gg/uploads/css_built_2/341e4a57816af3ba440d891ca87450ff_framework.css?v=c49b39a4a91704145949' media='all'>
+
+    <link rel='stylesheet' href='https://forum.klar.gg/uploads/css_built_2/05e81b71abe4f22d6eb8d1a929494829_responsive.css?v=c49b39a4a91704145949' media='all'>
+
+    <link rel='stylesheet' href='https://forum.klar.gg/uploads/css_built_2/90eb5adf50a8c640f633d47fd7eb1778_core.css?v=c49b39a4a91704145949' media='all'>
+
+    <link rel='stylesheet' href='https://forum.klar.gg/uploads/css_built_2/5a0da001ccc2200dc5625c3f3934497d_core_responsive.css?v=c49b39a4a91704145949' media='all'>
+
+    <link rel='stylesheet' href='https://forum.klar.gg/uploads/css_built_2/7e700700c9e441127acd87ce0d0ceec8_nexus.css?v=c49b39a4a91704145949' media='all'>
+
+    <link rel='stylesheet' href='https://forum.klar.gg/uploads/css_built_2/d5254fde5a00603b442827417f3143ee_store.css?v=c49b39a4a91704145949' media='all'>
+
+    <link rel='stylesheet' href='https://forum.klar.gg/uploads/css_built_2/62ea6f8317f9765a5cedeb8fd4f93f33_store_responsive.css?v=c49b39a4a91704145949' media='all'>
+
+
+
+
+
+    <link rel='stylesheet' href='https://forum.klar.gg/uploads/css_built_2/258adbb6e4f3e83cd3b355f84e3fa002_custom.css?v=c49b39a4a91704145949' media='all'>
+
+
+
+
+
+
+
+
+
+    <link rel='shortcut icon' href='https://forum.klar.gg/uploads/monthly_2023_10/favicon.png' type="image/png">
+
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f6eb894a7e.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="ipsApp ipsApp_front ipsJS_has ipsClearfix" data-controller="core.front.core.app" data-message="" data-pageapp="nexus" data-pagelocation="front" data-pagemodule="store" data-pagecontroller="store">
+
+
+
+
+
+    <a href="#ipsLayout_mainArea" class="ipsHide" title="Go to main content on this page" accesskey="m">Jump to content</a>
+    <div id="ipsLayout_header" class="ipsClearfix">
+
+        <ul id='elMobileNav' class='ipsResponsive_hideDesktop' data-controller='core.front.core.mobileNav'>
+
+
+            <li id='elMobileBreadcrumb'>
+                <a href='https://forum.klar.gg/'>
+					<span>Home</span>
+				</a>
+            </li>
+
+
+
+
+            <li>
+                <a data-action="defaultStream" href='https://forum.klar.gg/discover/'><i class="fa fa-newspaper-o" aria-hidden="true"></i></a>
+            </li>
+
+
+
+
+            <li class='ipsJS_show'>
+                <a href='https://forum.klar.gg/search/'><i class='fa fa-search'></i></a>
+            </li>
+
+
+            <ul class='ipsMobileHamburger ipsList_reset ipsResponsive_hideDesktop'>
+                <li data-ipsDrawer data-ipsDrawer-drawerElem='#elMobileDrawer'>
+                    <a href='#'>
+			
+			
+				
+			
+			
+			
+			<i class='fa fa-navicon'></i>
+		</a>
+                </li>
+            </ul>
+        </ul>
+
+
+
+
+        <div class='cAnnouncements' data-controller="core.front.core.announcementBanner">
+
+            <div class='cAnnouncementPageTop ipsJS_hide ipsAnnouncement ipsMessage_success' data-announcementId="9">
+
+                <a href='https://forum.klar.gg/store/' target="_blank" rel='noopener'>Klar is Back! 🚀 Get 20% off all products! Limited Time.</a>
+
+
+                <a href='#' data-role="dismissAnnouncement">×</a>
+            </div>
+
+        </div>
+
+
+
+        <header>
+            <div class="ipsLayout_container">
+
+                <div id='atm-header'>
+
+
+
+                    <div class='atm-logo'><a href='https://forum.klar.gg/'><img src="https://forum.klar.gg/uploads/monthly_2023_10/klar.png.007e6721c23350e2b020fe2fee24959d.png" alt='klar.gg'></a></div>
+
+
+                    <div class='atm-userpanel'>
+
+
+                        <ul id="elUserNav" class="ipsList_inline cSignedOut ipsResponsive_showDesktop">
+
+
+
+
+
+
+
+
+
+
+                            <li class='cUserNav_icon ipsHide' id='elCart_container'></li>
+                            <li class='elUserNav_sep ipsHide' id='elCart_sep'></li>
+
+                            <li id="elSignInLink">
+                                <a href="https://forum.klar.gg/login/" data-ipsmenu-closeonclick="false" data-ipsmenu id="elUserSignIn">
+                    Existing user? Sign In  <i class="fa fa-caret-down"></i>
+                </a>
+
+                                <div id='elUserSignIn_menu' class='ipsMenu ipsMenu_auto ipsHide'>
+                                    <form accept-charset='utf-8' method='post' action='https://forum.klar.gg/login/'>
+                                        <input type="hidden" name="csrfKey" value="3ac122fd3bcb7bbca4cf55987ab85649">
+                                        <input type="hidden" name="ref" value="aHR0cHM6Ly9mb3J1bS5rbGFyLmdnL3N0b3JlLw==">
+                                        <div data-role="loginForm">
+
+
+
+
+                                            <div class="ipsPad ipsForm ipsForm_vertical">
+                                                <h4 class="ipsType_sectionHead">Sign In</h4>
+                                                <br><br>
+                                                <ul class='ipsList_reset'>
+                                                    <li class="ipsFieldRow ipsFieldRow_noLabel ipsFieldRow_fullWidth">
+
+
+                                                        <input type="email" placeholder="Email Address" name="auth" autocomplete="email">
+
+                                                    </li>
+                                                    <li class="ipsFieldRow ipsFieldRow_noLabel ipsFieldRow_fullWidth">
+                                                        <input type="password" placeholder="Password" name="password" autocomplete="current-password">
+                                                    </li>
+                                                    <li class="ipsFieldRow ipsFieldRow_checkbox ipsClearfix">
+                                                        <span class="ipsCustomInput">
+				<input type="checkbox" name="remember_me" id="remember_me_checkbox" value="1" checked aria-checked="true">
+				<span></span>
+                                                        </span>
+                                                        <div class="ipsFieldRow_content">
+                                                            <label class="ipsFieldRow_label" for="remember_me_checkbox">Remember me</label>
+                                                            <span class="ipsFieldRow_desc">Not recommended on shared computers</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="ipsFieldRow ipsFieldRow_fullWidth">
+                                                        <button type="submit" name="_processLogin" value="usernamepassword" class="ipsButton ipsButton_primary ipsButton_small" id="elSignIn_submit">Sign In</button>
+
+                                                        <p class="ipsType_right ipsType_small">
+
+                                                            <a href='https://forum.klar.gg/lostpassword/' data-ipsDialog data-ipsDialog-title='Forgot your password?'>
+					
+					Forgot your password?</a>
+                                                        </p>
+
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                    </form>
+                                </div>
+                            </li>
+
+
+
+                            <li>
+
+                                <a href="https://forum.klar.gg/register/" id="elRegisterButton" class="ipsButton ipsButton_normal ipsButton_primary">Sign Up</a>
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+
+        <nav data-controller='core.front.core.navBar' class=' ipsResponsive_showDesktop'>
+            <div class='ipsNavBar_primary ipsLayout_container '>
+                <ul data-role="primaryNavBar" class='ipsClearfix'>
+
+
+
+
+
+
+                    <li id='elNavSecondary_1' data-role="navBarItem" data-navApp="core" data-navExt="CustomItem">
+
+
+                        <a href="https://forum.klar.gg" data-navItem-id="1">
+					Browse
+				</a>
+
+
+                        <ul class='ipsNavBar_secondary ipsHide' data-role='secondaryNavBar'>
+
+
+
+
+
+
+                            <li id='elNavSecondary_10' data-role="navBarItem" data-navApp="forums" data-navExt="Forums">
+
+
+                                <a href="https://forum.klar.gg" data-navItem-id="10">
+					Forums
+				</a>
+
+
+                            </li>
+
+
+
+
+
+
+                            <li id='elNavSecondary_12' data-role="navBarItem" data-navApp="downloads" data-navExt="Downloads">
+
+
+                                <a href="https://forum.klar.gg/files/" data-navItem-id="12">
+					Downloads
+				</a>
+
+
+                            </li>
+
+
+
+
+
+
+                            <li id='elNavSecondary_31' data-role="navBarItem" data-navApp="core" data-navExt="StaffDirectory">
+
+
+                                <a href="https://forum.klar.gg/staff/" data-navItem-id="31">
+					Staff
+				</a>
+
+
+                            </li>
+
+
+
+
+
+
+                            <li id='elNavSecondary_32' data-role="navBarItem" data-navApp="core" data-navExt="OnlineUsers">
+
+
+                                <a href="https://forum.klar.gg/online/" data-navItem-id="32">
+					Online Users
+				</a>
+
+
+                            </li>
+
+
+
+                            <li class='ipsHide' id='elNavigationMore_1' data-role='navMore'>
+                                <a href='#' data-ipsMenu data-ipsMenu-appendTo='#elNavigationMore_1' id='elNavigationMore_1_dropdown'>More <i class='fa fa-caret-down'></i></a>
+                                <ul class='ipsHide ipsMenu ipsMenu_auto' id='elNavigationMore_1_dropdown_menu' data-role='moreDropdown'></ul>
+                            </li>
+                        </ul>
+
+                    </li>
+
+
+
+
+
+
+                    <li id='elNavSecondary_2' data-role="navBarItem" data-navApp="core" data-navExt="CustomItem">
+
+
+                        <a href="https://forum.klar.gg/discover/" data-navItem-id="2">
+					Activity
+				</a>
+
+
+                        <ul class='ipsNavBar_secondary ipsHide' data-role='secondaryNavBar'>
+
+
+
+
+
+
+                            <li id='elNavSecondary_4' data-role="navBarItem" data-navApp="core" data-navExt="AllActivity">
+
+
+                                <a href="https://forum.klar.gg/discover/" data-navItem-id="4">
+					All Activity
+				</a>
+
+
+                            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <li id='elNavSecondary_8' data-role="navBarItem" data-navApp="core" data-navExt="Search">
+
+
+                                <a href="https://forum.klar.gg/search/" data-navItem-id="8">
+					Search
+				</a>
+
+
+                            </li>
+
+
+
+
+
+
+                            <li class='ipsHide' id='elNavigationMore_2' data-role='navMore'>
+                                <a href='#' data-ipsMenu data-ipsMenu-appendTo='#elNavigationMore_2' id='elNavigationMore_2_dropdown'>More <i class='fa fa-caret-down'></i></a>
+                                <ul class='ipsHide ipsMenu ipsMenu_auto' id='elNavigationMore_2_dropdown_menu' data-role='moreDropdown'></ul>
+                            </li>
+                        </ul>
+
+                    </li>
+
+
+
+
+
+
+                    <li id='elNavSecondary_28' data-role="navBarItem" data-navApp="core" data-navExt="CustomItem">
+
+
+                        <a href="https://forum.klar.gg/support/" data-navItem-id="28">
+					<i class="fas fa-ticket-alt" style="margin-right:5px"></i>Support
+				</a>
+
+
+                        <ul class='ipsNavBar_secondary ipsHide' data-role='secondaryNavBar'>
+
+
+
+
+
+
+
+
+
+                            <li class='ipsHide' id='elNavigationMore_28' data-role='navMore'>
+                                <a href='#' data-ipsMenu data-ipsMenu-appendTo='#elNavigationMore_28' id='elNavigationMore_28_dropdown'>More <i class='fa fa-caret-down'></i></a>
+                                <ul class='ipsHide ipsMenu ipsMenu_auto' id='elNavigationMore_28_dropdown_menu' data-role='moreDropdown'></ul>
+                            </li>
+                        </ul>
+
+                    </li>
+
+
+
+
+
+
+                    <li id='elNavSecondary_36' data-role="navBarItem" data-navApp="core" data-navExt="CustomItem">
+
+
+                        <a href="https://forum.klar.gg/discord" data-navItem-id="36">
+					<i class="fab fa-discord" aria-hidden="true" style="margin-right:5px"></i>Discord
+				</a>
+
+
+                    </li>
+
+
+
+
+
+
+
+
+                    <li class='ipsNavBar_active' data-active id='elNavSecondary_39' data-role="navBarItem" data-navApp="core" data-navExt="CustomItem">
+
+
+                        <a href="https://forum.klar.gg/store/" data-navItem-id="39" data-navDefault>
+					<i class="fas fa-shopping-cart" style="margin-right:5px"></i>Store
+				</a>
+
+
+                        <ul class='ipsNavBar_secondary ' data-role='secondaryNavBar'>
+
+
+
+
+
+
+
+
+                            <li class='ipsNavBar_active' data-active id='elNavSecondary_14' data-role="navBarItem" data-navApp="nexus" data-navExt="Store">
+
+
+                                <a href="https://forum.klar.gg/store/" data-navItem-id="14" data-navDefault>
+					Store
+				</a>
+
+
+                            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+                            <li class='ipsHide' id='elNavigationMore_39' data-role='navMore'>
+                                <a href='#' data-ipsMenu data-ipsMenu-appendTo='#elNavigationMore_39' id='elNavigationMore_39_dropdown'>More <i class='fa fa-caret-down'></i></a>
+                                <ul class='ipsHide ipsMenu ipsMenu_auto' id='elNavigationMore_39_dropdown_menu' data-role='moreDropdown'></ul>
+                            </li>
+                        </ul>
+
+                    </li>
+
+
+
+
+
+
+
+
+
+                    <li id='elNavSecondary_34' data-role="navBarItem" data-navApp="core" data-navExt="CustomItem">
+
+
+                        <a href="https://klarcheats.statuspage.io/" target='_blank' rel="noopener" data-navItem-id="34">
+					<i class="fas fa-spinner" style="margin-right:5px"></i>Status
+				</a>
+
+
+                    </li>
+
+
+
+
+
+
+                    <li class='ipsHide' id='elNavigationMore' data-role='navMore'>
+                        <a href='#' data-ipsMenu data-ipsMenu-appendTo='#elNavigationMore' id='elNavigationMore_dropdown'>More</a>
+                        <ul class='ipsNavBar_secondary ipsHide' data-role='secondaryNavBar'>
+                            <li class='ipsHide' id='elNavigationMore_more' data-role='navMore'>
+                                <a href='#' data-ipsMenu data-ipsMenu-appendTo='#elNavigationMore_more' id='elNavigationMore_more_dropdown'>More <i class='fa fa-caret-down'></i></a>
+                                <ul class='ipsHide ipsMenu ipsMenu_auto' id='elNavigationMore_more_dropdown_menu' data-role='moreDropdown'></ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+                <div id="elSearchWrapper">
+                    <div id='elSearch' data-controller="core.front.core.quickSearch">
+                        <form accept-charset='utf-8' action='//forum.klar.gg/search/?do=quicksearch' method='post'>
+                            <input type='search' id='elSearchField' placeholder='Search...' name='q' autocomplete='off' aria-label='Search'>
+                            <details class='cSearchFilter'>
+                                <summary class='cSearchFilter__text'></summary>
+                                <ul class='cSearchFilter__menu'>
+
+                                    <li><label><input type="radio" name="type" value="all" ><span class='cSearchFilter__menuText'>Everywhere</span></label></li>
+
+
+                                    <li><label><input type="radio" name="type" value="core_statuses_status"><span class='cSearchFilter__menuText'>Status Updates</span></label></li>
+
+                                    <li><label><input type="radio" name="type" value="forums_topic"><span class='cSearchFilter__menuText'>Topics</span></label></li>
+
+                                    <li><label><input type="radio" name="type" value="cms_pages_pageitem"><span class='cSearchFilter__menuText'>Pages</span></label></li>
+
+                                    <li><label><input type="radio" name="type" value="cms_records1"><span class='cSearchFilter__menuText'>Article</span></label></li>
+
+                                    <li><label><input type="radio" name="type" value="downloads_file"><span class='cSearchFilter__menuText'>Files</span></label></li>
+
+                                    <li><label><input type="radio" name="type" value="nexus_package_item" checked><span class='cSearchFilter__menuText'>Products</span></label></li>
+
+                                    <li><label><input type="radio" name="type" value="core_members"><span class='cSearchFilter__menuText'>Members</span></label></li>
+
+                                </ul>
+                            </details>
+                            <button class='cSearchSubmit' type="submit" aria-label='Search'><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+
+                    <ul class='atm-social'>
+                        <li><a href="https://forum.klar.gg/discord" class='discord' alt='Discord' data-ipstooltip="" _title="Discord"><i class="fab fa-discord"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+    </div>
+
+
+    <main id="ipsLayout_body" class="ipsLayout_container">
+        <div id="ipsLayout_contentArea">
+            <div id="ipsLayout_contentWrapper">
+
+                <nav class='ipsBreadcrumb ipsBreadcrumb_top ipsFaded_withHover'>
+
+
+                    <ul class='ipsList_inline ipsPos_right'>
+
+                        <li>
+                            <a data-action="defaultStream" class='ipsType_light ' href='https://forum.klar.gg/discover/'><i class="fa fa-newspaper-o" aria-hidden="true"></i> <span>All Activity</span></a>
+                        </li>
+
+                    </ul>
+
+                    <ul data-role="breadcrumbList">
+                        <li>
+                            <a title="Home" href='https://forum.klar.gg/'>
+				<span>Home <i class='fa fa-angle-right'></i></span>
+			</a>
+                        </li>
+
+
+                        <li>
+
+                            <a href='https://forum.klar.gg/store/'>
+						<span>Store </span>
+					</a>
+
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <div id="ipsLayout_mainArea">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <div class='ipsPageHeader sm:ipsPadding:half ipsClearfix ipsMargin_bottom sm:ipsMargin_bottom:half'>
+                        <h1 class='ipsType_pageTitle'>Store</h1>
+
+                    </div>
+
+
+
+                    <section>
+                        <ul class='ipsGrid ipsGrid_collapsePhone' data-ipsGrid data-ipsGrid-minItemSize='200' data-ipsGrid-maxItemSize='350' data-ipsGrid-equalHeights='row'>
+
+                            <li class='ipsGrid_span4 cNexusCategoryBlock'>
+                                <a href='https://forum.klar.gg/store/category/2-rainbow-six-siege-lite/' data-grid-ratio='40' style="background-image: url( 'https://forum.klar.gg/uploads/monthly_2023_10/r6lite.png.ef8a13b69bd4083ce14b4f4ca49808d7.png' );">
+                                    <h2 class='ipsType_sectionHead ipsTruncate ipsTruncate_line'>Rainbow Six Siege Lite</h2>
+                                </a>
+                            </li>
+
+                            <li class='ipsGrid_span4 cNexusCategoryBlock'>
+                                <a href='https://forum.klar.gg/store/category/4-rainbow-six-siege-full/' data-grid-ratio='40' style="background-image: url( 'https://forum.klar.gg/uploads/monthly_2023_10/r6full.jpg.6cb1531c82128c2d267b9e9d48fa0a91.jpg' );">
+                                    <h2 class='ipsType_sectionHead ipsTruncate ipsTruncate_line'>Rainbow Six Siege Full</h2>
+                                </a>
+                            </li>
+
+                            <li class='ipsGrid_span4 cNexusCategoryBlock'>
+                                <a href='https://forum.klar.gg/store/category/5-apex-legends-lite/' data-grid-ratio='40' style="background-image: url( 'https://forum.klar.gg/uploads/monthly_2023_10/apexlite.png.a6838ec66f154857369554ce50d3cc0c.png' );">
+                                    <h2 class='ipsType_sectionHead ipsTruncate ipsTruncate_line'>Apex Legends Lite</h2>
+                                </a>
+                            </li>
+
+                            <li class='ipsGrid_span4 cNexusCategoryBlock'>
+                                <a href='https://forum.klar.gg/store/category/6-apex-legends-full/' data-grid-ratio='40' style="background-image: url( 'https://forum.klar.gg/uploads/monthly_2023_10/apexfull.jpg.c98b2482cb19d95790ae488c06a4c29a.jpg' );">
+                                    <h2 class='ipsType_sectionHead ipsTruncate ipsTruncate_line'>Apex Legends Full</h2>
+                                </a>
+                            </li>
+
+                            <li class='ipsGrid_span4 cNexusCategoryBlock'>
+                                <a href='https://forum.klar.gg/store/category/7-fortnite/' data-grid-ratio='40' style="background-image: url( 'https://forum.klar.gg/uploads/monthly_2023_10/fortnite.png.641e56cb2979f73a4288c0bd2743789c.png' );">
+                                    <h2 class='ipsType_sectionHead ipsTruncate ipsTruncate_line'>Fortnite</h2>
+                                </a>
+                            </li>
+
+                            <li class='ipsGrid_span4 cNexusCategoryBlock'>
+                                <a href='https://forum.klar.gg/store/category/9-dayz/' data-grid-ratio='40' style="background-image: url( 'https://forum.klar.gg/uploads/monthly_2023_10/dayz.png.b4e938a5bcbf3d3da0033a4029607dd8.png' );">
+                                    <h2 class='ipsType_sectionHead ipsTruncate ipsTruncate_line'>DayZ</h2>
+                                </a>
+                            </li>
+
+                            <li class='ipsGrid_span4 cNexusCategoryBlock'>
+                                <a href='https://forum.klar.gg/store/category/12-hunt-showdown/' data-grid-ratio='40' style="background-image: url( 'https://forum.klar.gg/uploads/monthly_2023_10/hunt.png.9373dbc67c29f9cb324c18e907d9ea12.png' );">
+                                    <h2 class='ipsType_sectionHead ipsTruncate ipsTruncate_line'>Hunt: Showdown</h2>
+                                </a>
+                            </li>
+
+                            <li class='ipsGrid_span4 cNexusCategoryBlock'>
+                                <a href='https://forum.klar.gg/store/category/13-hwid-spoofer/' data-grid-ratio='40' style="background-image: url( 'https://forum.klar.gg/uploads/monthly_2023_10/spoofer.png.4e0b604305c95bb3369ccb472e001c97.png' );">
+                                    <h2 class='ipsType_sectionHead ipsTruncate ipsTruncate_line'>HWID Spoofer</h2>
+                                </a>
+                            </li>
+
+                            <li class='ipsGrid_span4 cNexusCategoryBlock'>
+                                <a href='https://forum.klar.gg/store/category/16-chess/' data-grid-ratio='40' style="background-image: url( 'https://forum.klar.gg/uploads/monthly_2023_10/chess.png.c1996c51e21419160181dab4de19dff9.png' );">
+                                    <h2 class='ipsType_sectionHead ipsTruncate ipsTruncate_line'>Chess</h2>
+                                </a>
+                            </li>
+
+                            <li class='ipsGrid_span4 cNexusCategoryBlock'>
+                                <a href='https://forum.klar.gg/store/category/17-rogue-company/' data-grid-ratio='40' style="background-image: url( 'https://forum.klar.gg/uploads/monthly_2023_10/rogue.png.c3de8499586f121e859bb1a9918129ce.png' );">
+                                    <h2 class='ipsType_sectionHead ipsTruncate ipsTruncate_line'>Rogue Company</h2>
+                                </a>
+                            </li>
+
+                            <li class='ipsGrid_span4 cNexusCategoryBlock'>
+                                <a href='https://forum.klar.gg/store/category/18-palworld/' data-grid-ratio='40' style="background-image: url( 'https://forum.klar.gg/uploads/monthly_2024_01/palworld.png.67e3498d7d3a4440bb57393427fc6dcf.png' );">
+                                    <h2 class='ipsType_sectionHead ipsTruncate ipsTruncate_line'>Palworld</h2>
+                                </a>
+                            </li>
+
+                            <li class='ipsGrid_span4 cNexusCategoryBlock'>
+                                <a href='https://forum.klar.gg/store/category/20-battlefield-2042/' data-grid-ratio='40' style="background-image: url( 'https://forum.klar.gg/uploads/monthly_2024_03/bf2042.jpeg.08302d410388ea2e3d9167152bc30f32.jpeg' );">
+                                    <h2 class='ipsType_sectionHead ipsTruncate ipsTruncate_line'>Battlefield 2042</h2>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </section>
+
+                    <section class='ipsSpacer_top'>
+
+
+
+
+
+                    </section>
+
+
+
+                </div>
+
+
+
+                <div id='ipsLayout_sidebar' class='ipsLayout_sidebarright ' data-controller='core.front.widgets.sidebar'>
+
+
+                    <aside id="elContextualTools" class='ipsClearfix'>
+
+
+                        <div data-role="categorySidebar">
+
+                            <div class='ipsBox ipsSpacer_bottom' id='elNexusCategoriesBox'>
+                                <h2 class='ipsType_sectionTitle ipsType_reset'>Categories</h2>
+                                <div class='ipsPad_half'>
+
+                                    <div class='ipsSideMenu ipsSideMenu_withRadios ipsType_medium' id='elCategories_menu'>
+                                        <h3 class='ipsSideMenu_mainTitle ipsAreaBackground_light ipsType_medium'>
+                                            <a href='#elCategories_menu' class='ipsPad_double' data-action='openSideMenu'><i class='fa fa-bars'></i> &nbsp;Categories&nbsp;<i class='fa fa-caret-down'></i></a>
+                                        </h3>
+                                        <ul class='ipsSideMenu_list'>
+
+                                            <li>
+                                                <a href='https://forum.klar.gg/store/category/2-rainbow-six-siege-lite/' class='ipsSideMenu_item '><strong>Rainbow Six Siege Lite</strong></a>
+
+                                            </li>
+
+                                            <li>
+                                                <a href='https://forum.klar.gg/store/category/4-rainbow-six-siege-full/' class='ipsSideMenu_item '><strong>Rainbow Six Siege Full</strong></a>
+
+                                            </li>
+
+                                            <li>
+                                                <a href='https://forum.klar.gg/store/category/5-apex-legends-lite/' class='ipsSideMenu_item '><strong>Apex Legends Lite</strong></a>
+
+                                            </li>
+
+                                            <li>
+                                                <a href='https://forum.klar.gg/store/category/6-apex-legends-full/' class='ipsSideMenu_item '><strong>Apex Legends Full</strong></a>
+
+                                            </li>
+
+                                            <li>
+                                                <a href='https://forum.klar.gg/store/category/7-fortnite/' class='ipsSideMenu_item '><strong>Fortnite</strong></a>
+
+                                            </li>
+
+                                            <li>
+                                                <a href='https://forum.klar.gg/store/category/9-dayz/' class='ipsSideMenu_item '><strong>DayZ</strong></a>
+
+                                            </li>
+
+                                            <li>
+                                                <a href='https://forum.klar.gg/store/category/12-hunt-showdown/' class='ipsSideMenu_item '><strong>Hunt: Showdown</strong></a>
+
+                                            </li>
+
+                                            <li>
+                                                <a href='https://forum.klar.gg/store/category/13-hwid-spoofer/' class='ipsSideMenu_item '><strong>HWID Spoofer</strong></a>
+
+                                            </li>
+
+                                            <li>
+                                                <a href='https://forum.klar.gg/store/category/16-chess/' class='ipsSideMenu_item '><strong>Chess</strong></a>
+
+                                            </li>
+
+                                            <li>
+                                                <a href='https://forum.klar.gg/store/category/17-rogue-company/' class='ipsSideMenu_item '><strong>Rogue Company</strong></a>
+
+                                            </li>
+
+                                            <li>
+                                                <a href='https://forum.klar.gg/store/category/18-palworld/' class='ipsSideMenu_item '><strong>Palworld</strong></a>
+
+                                            </li>
+
+                                            <li>
+                                                <a href='https://forum.klar.gg/store/category/20-battlefield-2042/' class='ipsSideMenu_item '><strong>Battlefield 2042</strong></a>
+
+                                            </li>
+
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+
+
+
+                        </div>
+                    </aside>
+                    <hr class='ipsHr ipsSpacer_both'>
+
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+    <footer id="ipsLayout_footer" class="ipsClearfix">
+
+
+        <div id='atm-footer-top'>
+            <div class='ipsLayout_container'>
+
+
+                <div class='atm-footer-top-aboutus'>
+
+                    <div class='atm-footer-top-aboutus-logo'>
+
+
+
+                        <div class='atm-logo'><a href='https://forum.klar.gg/'><img src="https://forum.klar.gg/uploads/monthly_2023_10/klar.png.007e6721c23350e2b020fe2fee24959d.png" alt='klar.gg'></a></div>
+
+                        <a href="#top" class="btn btn-grey small-txt">Go Up!</a>
+                    </div>
+
+                    <p>
+                        At klar we aim to recreate the way games are played.<br /> Our Cheats are powerful yet affordable and will guarantee you to start winning.
+                    </p>
+
+                </div>
+
+
+                <div class='atm-footer-top-columns'>
+
+
+                    <div class='atm-footer-top-columns-row'>
+                        <h2>Main menu</h2>
+                        <p>Navigation</p>
+                        <ul>
+                            <li>
+                                <a href="https://klar.gg" rel="external nofollow">Main site</a>
+                            </li>
+                            <li>
+                                <a href="https://klar.mysellix.io/" rel="external nofollow">Shop</a>
+                            </li>
+                            <li>
+                                <a href="https://klarcheats.statuspage.io/" rel="external nofollow">Status</a>
+                            </li>
+                            <li>
+                                <a href="https://forum.klar.gg/discord" rel="">Discord</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+
+                    <div class='atm-footer-top-columns-row'>
+                        <h2>Services</h2>
+                        <p>Useful links</p>
+                        <ul>
+                            <li>
+                                <a href="https://forum.klar.gg/forum/17-frequently-asked-questions/" rel="">Frequently asked questions</a>
+                            </li>
+                            <li>
+                                <a href="https://forum.klar.gg/support/create/" rel="">Open new support ticket</a>
+                            </li>
+                            <li>
+                                <a href="https://forum.klar.gg/forum/10-features/" rel="">Feature list</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="ipsLayout_container atm-footer-copyright">
+
+            <span class='copyright'>
+
+<ul class='ipsList_inline ipsType_center ipsSpacer_top' id="elFooterLinks">
+	
+	
+	
+	
+	
+		<li><a href='https://forum.klar.gg/privacy/'>Privacy Policy</a></li>
+	
+	
+</ul>	
+
+
+<p id='elCopyright'>
+	<span id='elCopyright_userLine'></span>
+            <a rel='nofollow' title='Invision Community' href='https://www.invisioncommunity.com/'>Powered by Invision Community</a>
+            </p>
+            </span>
+
+            <ul class='atm-social'>
+                <li><a href="https://forum.klar.gg/discord" class='discord' alt='Discord' data-ipstooltip="" _title="Discord"><i class="fab fa-discord"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <div id="elMobileDrawer" class="ipsDrawer ipsHide">
+        <div class="ipsDrawer_menu">
+            <a href="#" class="ipsDrawer_close" data-action="close"><span>×</span></a>
+            <div class="ipsDrawer_content ipsFlex ipsFlex-fd:column">
+                <ul id="elUserNav_mobile" class="ipsList_inline signed_in ipsClearfix">
+
+
+
+                </ul>
+
+
+                <div class="ipsPadding ipsBorder_bottom">
+                    <ul class="ipsToolList ipsToolList_vertical">
+                        <li>
+                            <a href="https://forum.klar.gg/login/" id="elSigninButton_mobile" class="ipsButton ipsButton_light ipsButton_small ipsButton_fullWidth">Existing user? Sign In</a>
+                        </li>
+
+                        <li>
+
+                            <a href="https://forum.klar.gg/register/" id="elRegisterButton_mobile" class="ipsButton ipsButton_small ipsButton_fullWidth ipsButton_important">Sign Up</a>
+
+                        </li>
+
+                    </ul>
+                </div>
+
+
+
+
+                <ul class="ipsDrawer_list ipsFlex-flex:11">
+
+
+
+
+
+
+
+
+
+                    <li class="ipsDrawer_itemParent">
+                        <h4 class="ipsDrawer_title"><a href="#">Browse</a></h4>
+                        <ul class="ipsDrawer_list">
+                            <li data-action="back"><a href="#">Back</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <li>
+                                <a href='https://forum.klar.gg'>
+					Forums
+				</a>
+                            </li>
+
+
+
+
+
+                            <li>
+                                <a href='https://forum.klar.gg/files/'>
+					Downloads
+				</a>
+                            </li>
+
+
+
+
+
+                            <li>
+                                <a href='https://forum.klar.gg/staff/'>
+					Staff
+				</a>
+                            </li>
+
+
+
+
+
+                            <li>
+                                <a href='https://forum.klar.gg/online/'>
+					Online Users
+				</a>
+                            </li>
+
+
+
+
+                        </ul>
+                    </li>
+
+
+
+
+
+
+                    <li class="ipsDrawer_itemParent">
+                        <h4 class="ipsDrawer_title"><a href="#">Activity</a></h4>
+                        <ul class="ipsDrawer_list">
+                            <li data-action="back"><a href="#">Back</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <li>
+                                <a href='https://forum.klar.gg/discover/'>
+					All Activity
+				</a>
+                            </li>
+
+
+
+
+
+
+
+
+
+
+
+                            <li>
+                                <a href='https://forum.klar.gg/search/'>
+					Search
+				</a>
+                            </li>
+
+
+
+
+
+
+                        </ul>
+                    </li>
+
+
+
+
+
+
+                    <li class="ipsDrawer_itemParent">
+                        <h4 class="ipsDrawer_title"><a href="#"><i class="fas fa-ticket-alt" style="margin-right:5px"></i>Support</a></h4>
+                        <ul class="ipsDrawer_list">
+                            <li data-action="back"><a href="#">Back</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+                            <li><a href="https://forum.klar.gg/support/"><i class="fas fa-ticket-alt" style="margin-right:5px"></i>Support</a></li>
+
+
+
+
+
+
+
+
+
+
+
+                        </ul>
+                    </li>
+
+
+
+
+
+
+                    <li><a href="https://forum.klar.gg/discord"><i class="fab fa-discord" aria-hidden="true" style="margin-right:5px"></i>Discord</a></li>
+
+
+
+
+
+
+                    <li class="ipsDrawer_itemParent">
+                        <h4 class="ipsDrawer_title"><a href="#"><i class="fas fa-shopping-cart" style="margin-right:5px"></i>Store</a></h4>
+                        <ul class="ipsDrawer_list">
+                            <li data-action="back"><a href="#">Back</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <li>
+                                <a href='https://forum.klar.gg/store/'>
+					Store
+				</a>
+                            </li>
+
+
+
+
+
+
+
+
+
+
+                        </ul>
+                    </li>
+
+
+
+
+
+
+
+
+                    <li><a href="https://klarcheats.statuspage.io/" target="_blank" rel="noopener"><i class="fas fa-spinner" style="margin-right:5px"></i>Status</a></li>
+
+
+
+
+
+
+                </ul>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div id="elMobileCreateMenuDrawer" class="ipsDrawer ipsHide">
+        <div class="ipsDrawer_menu">
+            <a href="#" class="ipsDrawer_close" data-action="close"><span>×</span></a>
+            <div class="ipsDrawer_content ipsSpacer_bottom ipsPad">
+                <ul class="ipsDrawer_list">
+                    <li class="ipsDrawer_listTitle ipsType_reset">Create New...</li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script type='text/javascript'>
+        var ipsDebug = false;
+
+        var CKEDITOR_BASEPATH = '//forum.klar.gg/applications/core/interface/ckeditor/ckeditor/';
+
+        var ipsSettings = {
+
+
+            cookie_path: "/",
+
+            cookie_prefix: "ips4_",
+
+
+            cookie_ssl: true,
+
+            essential_cookies: ["oauth_authorize", "member_id", "login_key", "clearAutosave", "lastSearch", "device_key", "IPSSessionFront", "loggedIn", "noCache", "hasJS", "cookie_consent", "cookie_consent_optional", "forumpass_*", "cm_reg", "location", "currency", "guestTransactionKey"],
+            upload_imgURL: "",
+            message_imgURL: "",
+            notification_imgURL: "",
+            baseURL: "//forum.klar.gg/",
+            jsURL: "//forum.klar.gg/applications/core/interface/js/js.php",
+            csrfKey: "3ac122fd3bcb7bbca4cf55987ab85649",
+            antiCache: "c49b39a4a91704145949",
+            jsAntiCache: "c49b39a4a91711768723",
+            disableNotificationSounds: true,
+            useCompiledFiles: true,
+            links_external: true,
+            memberID: 0,
+            lazyLoadEnabled: true,
+            blankImg: "//forum.klar.gg/applications/core/interface/js/spacer.png",
+            googleAnalyticsEnabled: false,
+            matomoEnabled: false,
+            viewProfiles: true,
+            mapProvider: 'none',
+            mapApiKey: '',
+            pushPublicKey: "BJB-7_yE9yDD9YsvoD-8NsP_9M_oH61Z4RBzNtMz1yxKkdaxH1gYiitjs7YnSTdPslXw1-HYMk7t3ZuJ7EoupuM",
+            relativeDates: true
+        };
+
+
+
+
+        ipsSettings['maxImageDimensions'] = {
+            width: 1000,
+            height: 750
+        };
+    </script>
+
+
+
+
+
+    <script type='text/javascript' src='https://forum.klar.gg/uploads/javascript_global/root_library.js?v=c49b39a4a91711768723' data-ips></script>
+
+
+    <script type='text/javascript' src='https://forum.klar.gg/uploads/javascript_global/root_js_lang_1.js?v=c49b39a4a91711768723' data-ips></script>
+
+
+    <script type='text/javascript' src='https://forum.klar.gg/uploads/javascript_global/root_framework.js?v=c49b39a4a91711768723' data-ips></script>
+
+
+    <script type='text/javascript' src='https://forum.klar.gg/uploads/javascript_core/global_global_core.js?v=c49b39a4a91711768723' data-ips></script>
+
+
+    <script type='text/javascript' src='https://forum.klar.gg/uploads/javascript_global/root_front.js?v=c49b39a4a91711768723' data-ips></script>
+
+
+    <script type='text/javascript' src='https://forum.klar.gg/uploads/javascript_core/front_front_core.js?v=c49b39a4a91711768723' data-ips></script>
+
+
+    <script type='text/javascript' src='https://js.stripe.com/v3/' data-ips></script>
+
+
+    <script type='text/javascript' src='https://forum.klar.gg/uploads/javascript_global/root_map.js?v=c49b39a4a91711768723' data-ips></script>
+
+
+
+    <script type='text/javascript'>
+        ips.setSetting('date_format', jQuery.parseJSON('"mm\/dd\/yy"'));
+
+        ips.setSetting('date_first_day', jQuery.parseJSON('0'));
+
+        ips.setSetting('ipb_url_filter_option', jQuery.parseJSON('"none"'));
+
+        ips.setSetting('url_filter_any_action', jQuery.parseJSON('"allow"'));
+
+        ips.setSetting('bypass_profanity', jQuery.parseJSON('0'));
+
+        ips.setSetting('emoji_style', jQuery.parseJSON('"twemoji"'));
+
+        ips.setSetting('emoji_shortcodes', jQuery.parseJSON('true'));
+
+        ips.setSetting('emoji_ascii', jQuery.parseJSON('true'));
+
+        ips.setSetting('emoji_cache', jQuery.parseJSON('1697883124'));
+
+        ips.setSetting('image_jpg_quality', jQuery.parseJSON('85'));
+
+        ips.setSetting('cloud2', jQuery.parseJSON('false'));
+
+        ips.setSetting('isAnonymous', jQuery.parseJSON('false'));
+    </script>
+
+
+
+    <script type='application/ld+json'>
+        {
+            "@context": "http://www.schema.org",
+            "publisher": "https://forum.klar.gg/#organization",
+            "@type": "WebSite",
+            "@id": "https://forum.klar.gg/#website",
+            "mainEntityOfPage": "https://forum.klar.gg/",
+            "name": "klar.gg",
+            "url": "https://forum.klar.gg/",
+            "potentialAction": {
+                "type": "SearchAction",
+                "query-input": "required name=query",
+                "target": "https://forum.klar.gg/search/?q={query}"
+            },
+            "inLanguage": [{
+                "@type": "Language",
+                "name": "English (USA)",
+                "alternateName": "en"
+            }]
+        }
+    </script>
+
+    <script type='application/ld+json'>
+        {
+            "@context": "http://www.schema.org",
+            "@type": "Organization",
+            "@id": "https://forum.klar.gg/#organization",
+            "mainEntityOfPage": "https://forum.klar.gg/",
+            "name": "klar.gg",
+            "url": "https://forum.klar.gg/",
+            "logo": {
+                "@type": "ImageObject",
+                "@id": "https://forum.klar.gg/#logo",
+                "url": "https://forum.klar.gg/uploads/monthly_2023_10/klar.png.007e6721c23350e2b020fe2fee24959d.png"
+            },
+            "sameAs": [
+                "https://forum.klar.gg/discord"
+            ]
+        }
+    </script>
+
+    <script type='application/ld+json'>
+        {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://forum.klar.gg/store/",
+                    "name": "Store"
+                }
+            }]
+        }
+    </script>
+
+
+
+    <script type='text/javascript'>
+        (() => {
+            let gqlKeys = [];
+            for (let [k, v] of Object.entries(gqlKeys)) {
+                ips.setGraphQlData(k, v);
+            }
+        })();
+    </script>
+
+    <script src='https://forum.klar.gg/uploads/set_resources_2/d3121cdc96332b5d7e9f067c7781b207_swiper-atmosph.min.js'></script>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $("a[href='#top']").click(function() {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, "slow");
+                return false;
+            });
+        });
+    </script>
+
+    <!--ipsQueryLog-->
+    <!--ipsCachingLog-->
+
+
+
+
+</body>
+
+</html>
